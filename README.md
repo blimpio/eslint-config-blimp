@@ -1,4 +1,5 @@
 # Blimp - ESLint Shareable Config
+[![Build Status](https://travis-ci.org/GetBlimp/eslint-config-blimp.svg?branch=master)](https://travis-ci.org/GetBlimp/eslint-config-blimp)
 
 ## Install
 
