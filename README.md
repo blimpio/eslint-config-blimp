@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install -g eslint-config-blimp
+npm install eslint-config-blimp
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ Shareable configs are designed to work with the `extends` feature of `.eslintrc`
 To use the JavaScript Standard Style shareable config, first run this:
 
 ```bash
-npm install -g eslint-config-blimp babel-eslint eslint-plugin-babel
+npm install eslint-config-blimp babel-eslint eslint-plugin-babel
 ```
 
 Then, add this to your .eslintrc file:
