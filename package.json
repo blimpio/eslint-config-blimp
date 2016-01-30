@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-blimp",
+  "version": "1.0.0",
+  "description": "JavaScript linting rules",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/getblimp/eslint-config-blimp.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Giovanni Collazo",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-babel": "^3.0.0"
+  }
+}
