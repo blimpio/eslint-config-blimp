@@ -14,7 +14,7 @@ Shareable configs are designed to work with the `extends` feature of `.eslintrc`
 To use the Blimp shareable config, first run this:
 
 ```bash
-npm install eslint-config-blimp babel-eslint eslint-plugin-babel
+npm install -g eslint-config-blimp babel-eslint eslint-plugin-babel
 ```
 
 Then, add this to your .eslintrc file:
