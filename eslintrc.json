@@ -39,7 +39,7 @@
     "babel/arrow-parens": [2, "always"],
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
-    "arrow-body-style": 0,
+    "arrow-body-style": [2, "as-needed"],
     "arrow-spacing": [2, { "before": true, "after": true }],
     "block-scoped-var": 2,
     "block-spacing": 0,
