@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blimp",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "JavaScript linting rules",
   "main": "index.js",
   "scripts": {
@@ -17,13 +17,14 @@
   "author": "Giovanni Collazo",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^2.2.0",
     "babel-eslint": "^5.0.0",
-    "eslint-plugin-babel": "^3.1.0"
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint": "^2.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^1.10.3",
+    "eslint": "^2.2.0",
     "mocha": "^2.4.5"
   }
 }

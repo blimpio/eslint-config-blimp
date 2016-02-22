@@ -2,7 +2,8 @@
   "parser": "babel-eslint",
 
   "plugins": [
-    "babel"
+    "babel",
+    "promise"
   ],
 
   "env": {
@@ -38,6 +39,11 @@
 
   "rules": {
     "babel/arrow-parens": [2, "always"],
+
+    "promise/param-names": 2,
+    "promise/always-return": 2,
+    "promise/always-catch": 2,
+
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
     "arrow-body-style": [2, "as-needed"],
@@ -73,6 +79,7 @@
     "init-declarations": 0,
     "jsx-quotes": 0,
     "key-spacing": [2, { "afterColon": true, "beforeColon": false }],
+    "keyword-spacing": 2,
     "linebreak-style": [2, "unix"],
     "lines-around-comment": 0,
     "max-depth": [2, 4],
@@ -107,7 +114,6 @@
     "no-duplicate-case": 2,
     "no-else-return": 0,
     "no-empty-character-class": 2,
-    "no-empty-label": 2,
     "no-empty": 2,
     "no-eq-null": 2,
     "no-eval": 2,
@@ -209,13 +215,10 @@
     "semi-spacing": [2, { "after": true, "before": false }],
     "semi": 2,
     "sort-vars": 0,
-    "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": 0,
-    "space-before-keywords": [2, "always"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "space-unary-ops": [2, { "nonwords": false, "words": true }],
     "spaced-comment": [2, "always"],
     "strict": [2, "global"],
