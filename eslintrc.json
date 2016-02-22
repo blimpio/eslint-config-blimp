@@ -2,8 +2,7 @@
   "parser": "babel-eslint",
 
   "plugins": [
-    "babel",
-    "promise"
+    "babel"
   ],
 
   "env": {
@@ -39,10 +38,6 @@
 
   "rules": {
     "babel/arrow-parens": [2, "always"],
-
-    "promise/param-names": 2,
-    "promise/always-return": 2,
-    "promise/always-catch": 2,
 
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
