@@ -11,10 +11,10 @@ npm install eslint-config-blimp
 
 Shareable configs are designed to work with the `extends` feature of `.eslintrc` files. You can learn more about [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the official ESLint website.
 
-To use the Blimp shareable config, first run this:
+To use the Blimp shareable config in your project, first run this:
 
 ```bash
-npm install -g eslint-config-blimp babel-eslint eslint-plugin-babel
+npm install --save-dev babel-eslint eslint eslint-config-blimp eslint-plugin-babel  
 ```
 
 Then, add this to your .eslintrc file:
