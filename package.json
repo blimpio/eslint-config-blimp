@@ -19,7 +19,7 @@
   "peerDependencies": {
     "babel-eslint": "^5.0.0",
     "eslint-plugin-babel": "^3.1.0",
-    "eslint": "^2.2.0"
+    "eslint": "^2.8.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
