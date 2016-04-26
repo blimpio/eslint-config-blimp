@@ -17,13 +17,15 @@
   "author": "Giovanni Collazo",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^5.0.0",
-    "eslint-plugin-babel": "^3.1.0",
-    "eslint": "^2.2.0"
+    "babel-eslint": "^6.0.2",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint": "^2.8.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.2.0",
+    "babel-eslint": "^6.0.2",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint": "^2.8.0",
     "mocha": "^2.4.5"
   }
 }
