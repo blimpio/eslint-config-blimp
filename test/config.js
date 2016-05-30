@@ -30,9 +30,7 @@ describe('config', function() {
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-
     var code = 'const foo = 1;\nconsole.log(foo);\n';
-
     assert.ok(cli.executeOnText(code).errorCount === 0);
   });
 });
