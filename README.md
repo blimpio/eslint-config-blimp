@@ -9,7 +9,7 @@ npm install --save-dev eslint eslint-config-blimp
 
 Then, add this to your `.eslintrc` file:
 
-```
+```js
 {
   "extends": "blimp",
   "rules": {
