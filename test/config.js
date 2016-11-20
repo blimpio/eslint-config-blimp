@@ -9,10 +9,6 @@ describe('config', function() {
     assert.isDefined(config.parser);
   });
 
-  it('should have plugins', function() {
-    assert.isArray(config.plugins);
-  });
-
   it('should have env', function() {
     assert.isObject(config.env);
   });
