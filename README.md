@@ -11,7 +11,7 @@ Then, add this to your `.eslintrc` file:
 
 ```js
 {
-  "extends": "blimp",
+  "extends": ["blimp"],
   "rules": {
     // your overrides
   }
