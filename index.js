@@ -1,3 +1,2 @@
-/* eslint-disable no-var */
-var config = require('./eslintrc.json');
+const config = require('./eslintrc.json');
 module.exports = config;

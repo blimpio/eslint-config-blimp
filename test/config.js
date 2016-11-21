@@ -1,8 +1,7 @@
 /* eslint-env mocha */
-/* eslint-disable no-var */
-const { assert } = require('chai');
+const assert = require('chai').assert;
 const getRuleFinder = require('eslint-find-rules');
-const { CLIEngine } = require('eslint');
+const CLIEngine = require('eslint').CLIEngine;
 const config = require('../');
 
 describe('config', function() {
@@ -23,25 +22,25 @@ describe('config', function() {
   });
 
   it('should set all available rules', function() {
-    var ruleFinder = getRuleFinder();
+    const ruleFinder = getRuleFinder();
     assert.equal(ruleFinder.getUnusedRules().length, 0);
   });
 
   it('should load without syntax errors', function() {
-    var engine = new CLIEngine({
+    const engine = new CLIEngine({
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-    var code = 'const foo = 1;\nconsole.log(foo);\n';
+    const code = 'const foo = 1;\nconsole.log(foo);\n';
     assert.equal(engine.executeOnText(code).errorCount, 0);
   });
 
   it('should pass eslint rules', function() {
-    var engine = new CLIEngine({
+    const engine = new CLIEngine({
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-    var paths = ['index.js', 'test/config.js'];
+    const paths = ['index.js', 'test/config.js'];
     assert.equal(engine.executeOnFiles(paths).errorCount, 0);
   });
 });
