@@ -2,6 +2,9 @@
   "name": "eslint-config-blimp",
   "version": "4.0.1",
   "description": "JavaScript linting rules",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha --harmony",
