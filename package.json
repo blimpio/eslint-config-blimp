@@ -21,12 +21,12 @@
   "author": "Giovanni Collazo",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^4.3.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.2.0",
-    "eslint-find-rules": "^1.14.3",
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "eslint-find-rules": "^3.1.1",
     "mocha": "^3.0.0"
   },
   "dependencies": {
