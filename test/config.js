@@ -1,7 +1,7 @@
 /* eslint-env mocha */
-const assert = require('chai').assert;
+const { assert } = require('chai');
+const { CLIEngine } = require('eslint');
 const getRuleFinder = require('eslint-find-rules');
-const CLIEngine = require('eslint').CLIEngine;
 const config = require('../');
 
 describe('config', function() {
@@ -14,7 +14,7 @@ describe('config', function() {
   });
 
   it('should have ecmaFeatures', function() {
-    assert.isObject(config.ecmaFeatures);
+    assert.isObject(config.parserOptions.ecmaFeatures);
   });
 
   it('should have rules', function() {
