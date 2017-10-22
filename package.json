@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blimp",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "JavaScript linting rules",
   "engines": {
     "node": ">=4.0.0"
