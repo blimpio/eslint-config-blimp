@@ -5,36 +5,10 @@
     "node": true
   },
 
-  "parser": "babel-eslint",
+  "plugins": [
+    "prefer-let"
+  ],
 
-  "parserOptions": {
-    "ecmaVersion": 7,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "arrowFunctions": true,
-      "binaryLiterals": true,
-      "blockBindings": true,
-      "classes": true,
-      "defaultParams": true,
-      "destructuring": true,
-      "forOf": true,
-      "generators": true,
-      "globalReturn": true,
-      "modules": true,
-      "objectLiteralComputedProperties": true,
-      "objectLiteralDuplicateProperties": true,
-      "objectLiteralShorthandMethods": true,
-      "objectLiteralShorthandProperties": true,
-      "octalLiterals": true,
-      "regexUFlag": true,
-      "regexYFlag": true,
-      "restParams": true,
-      "spread": true,
-      "superInFunctions": true,
-      "templateStrings": true,
-      "unicodeCodePointEscapes": true
-    }
-  },
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-newline": 0,
@@ -253,6 +227,7 @@
     "prefer-arrow-callback": 0,
     "prefer-const": 0,
     "prefer-destructuring": ["error", {"array": false, "object": true }, {"enforceForRenamedProperties": true}],
+    "prefer-let/prefer-let": 2,
     "prefer-numeric-literals": 0,
     "prefer-promise-reject-errors": "error",
     "prefer-reflect": 2,

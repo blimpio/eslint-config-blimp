@@ -5,42 +5,40 @@ const getRuleFinder = require('eslint-find-rules');
 const config = require('../');
 
 describe('config', function() {
-  it('should have parser', function() {
-    assert.isDefined(config.parser);
-  });
-
   it('should have env', function() {
     assert.isObject(config.env);
-  });
-
-  it('should have ecmaFeatures', function() {
-    assert.isObject(config.parserOptions.ecmaFeatures);
   });
 
   it('should have rules', function() {
     assert.isObject(config.rules);
   });
 
+  it('should have plugin prefer-let', function() {
+    assert.isArray(config.plugins);
+    assert.equal(config.plugins[0], 'prefer-let');
+    assert.equal(config.rules['prefer-let/prefer-let'], 2);
+  });
+
   it('should set all available rules', function() {
-    const ruleFinder = getRuleFinder();
+    let ruleFinder = getRuleFinder();
     assert.equal(ruleFinder.getUnusedRules().length, 0);
   });
 
   it('should load without syntax errors', function() {
-    const engine = new CLIEngine({
+    let engine = new CLIEngine({
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-    const code = 'const foo = 1;\nconsole.log(foo);\n';
+    let code = 'let foo = 1;\nconst bar = 2;\nconsole.log(foo, bar);\n';
     assert.equal(engine.executeOnText(code).errorCount, 0);
   });
 
   it('should pass eslint rules', function() {
-    const engine = new CLIEngine({
+    let engine = new CLIEngine({
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-    const paths = ['index.js', 'test/config.js'];
+    let paths = ['index.js', 'test/config.js'];
     assert.equal(engine.executeOnFiles(paths).errorCount, 0);
   });
 });
