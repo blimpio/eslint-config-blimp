@@ -4,7 +4,7 @@
 ## Install
 
 ```bash
-npm install --save-dev eslint eslint-config-blimp
+npm install --save-dev eslint eslint-plugin-prefer-let eslint-config-blimp
 ```
 
 Then, add this to your `.eslintrc` file:
