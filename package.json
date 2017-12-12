@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blimp",
-  "version": "6.0.1",
+  "version": "7.0.0",
   "description": "JavaScript linting rules",
   "engines": {
     "node": ">=4.0.0"
@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git://github.com/getblimp/eslint-config-blimp.git"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "Giovanni Collazo",
   "license": "MIT",
   "peerDependencies": {
