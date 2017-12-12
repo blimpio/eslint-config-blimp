@@ -14,10 +14,7 @@
     "type": "git",
     "url": "git://github.com/getblimp/eslint-config-blimp.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
+  "keywords": ["eslint", "eslintconfig"],
   "author": "Giovanni Collazo",
   "license": "MIT",
   "peerDependencies": {
