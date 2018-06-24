@@ -29,7 +29,9 @@ describe('config', function() {
       useEslintrc: false,
       configFile: 'eslintrc.json'
     });
-    let code = 'let foo = 1;\nconst bar = 2;\nconsole.log(foo, bar);\n';
+    let code =
+      'let foo = 1;\nconst bar = 2;\nconsole.log(foo, bar);\n' +
+      'async function baz() {}\nbaz();\n';
     assert.equal(engine.executeOnText(code).errorCount, 0);
   });
 

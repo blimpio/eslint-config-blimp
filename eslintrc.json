@@ -5,6 +5,10 @@
     "node": true
   },
 
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+
   "plugins": ["prefer-let"],
 
   "rules": {
@@ -51,6 +55,7 @@
     "id-blacklist": 0,
     "id-length": 0,
     "id-match": 0,
+    "implicit-arrow-linebreak": 0,
     "indent": [2, 2, { "SwitchCase": 1 }],
     "init-declarations": 0,
     "jsx-quotes": 0,
@@ -61,9 +66,11 @@
     "lines-around-comment": 0,
     "lines-around-directive": 0,
     "lines-between-class-members": 0,
+    "max-classes-per-file": 0,
     "max-depth": [2, 4],
     "max-len": [2, 80, 4, { "ignoreUrls": true }],
     "max-lines": 0,
+    "max-lines-per-function": 0,
     "max-nested-callbacks": [2, 4],
     "max-params": [2, 5],
     "max-statements-per-line": [2, { "max": 1 }],
@@ -229,6 +236,7 @@
       { "array": false, "object": true },
       { "enforceForRenamedProperties": true }
     ],
+    "prefer-object-spread": 0,
     "prefer-let/prefer-let": 2,
     "prefer-numeric-literals": 0,
     "prefer-promise-reject-errors": "error",
