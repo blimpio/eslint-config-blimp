@@ -209,6 +209,7 @@
     "no-unused-vars": [2, { "args": "after-used", "vars": "all" }],
     "no-use-before-define": 2,
     "no-useless-call": 2,
+    "no-useless-catch": 0,
     "no-useless-computed-key": 0,
     "no-useless-concat": 0,
     "no-useless-constructor": 0,
@@ -239,6 +240,7 @@
       { "enforceForRenamedProperties": true }
     ],
     "prefer-let/prefer-let": 2,
+    "prefer-named-capture-group": 0,
     "prefer-numeric-literals": 0,
     "prefer-object-spread": 0,
     "prefer-promise-reject-errors": "error",
